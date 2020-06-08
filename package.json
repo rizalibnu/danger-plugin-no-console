@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/withspectrum/danger-plugin-no-console.git"
+    "url": "https://github.com/rizalibnu/danger-plugin-no-console.git"
   },
   "bugs": {
-    "url": "https://github.com/withspectrum/danger-plugin-no-console/issues"
+    "url": "https://github.com/rizalibnu/danger-plugin-no-console.git/issues"
   },
-  "homepage": "https://github.com/withspectrum/danger-plugin-no-console#readme",
+  "homepage": "https://github.com/rizalibnu/danger-plugin-no-console.git#readme",
   "keywords": [
     "danger",
     "danger-plugin",
