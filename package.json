@@ -1,5 +1,5 @@
 {
-  "name": "danger-plugin-no-console",
+  "name": "danger-plugin-no-console-ext",
   "description": "Danger plugin to prevent merging code that still has `console.log`s inside it.",
   "author": {
     "name": "Max Stoiber",
