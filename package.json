@@ -30,25 +30,26 @@
     "predocs": "rm -rf docs/",
     "docs": "esdoc -c .esdoc.json",
     "prepublish": "npm run build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "license": "MIT",
   "engines": {
     "node": ">=4.0.0"
   },
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "babel-cli": "^6.24.1",
     "babel-jest": "^20.0.1",
     "babel-preset-env": "^1.7.0",
-    "typings-tester": "^0.2.2",
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
     "jest": "^20.0.1",
     "lint-staged": "^3.4.1",
     "prettier": "^1.16.1",
-    "semantic-release": "^6.3.6",
+    "semantic-release": "^17.0.8",
     "typescript": "^2.9.2",
+    "typings-tester": "^0.2.2",
     "validate-commit-msg": "^2.12.1"
   },
   "optionalDependencies": {
