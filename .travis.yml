@@ -7,9 +7,9 @@ cache:
 notifications:
   email: false
 node_js:
-  - '8'
+  - '13'
 after_success:
-  - yarn semantic-release
+  - NPM_TOKEN=$NPM_TOKEN GH_TOKEN=$GH_TOKEN yarn semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
